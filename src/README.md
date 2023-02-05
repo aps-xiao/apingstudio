@@ -3,8 +3,9 @@ home: true
 layout: BlogHome
 icon: home
 title: Blog Home
-heroImage: /logo.svg
-heroText: APingStudio
+heroImage: /avatar.png
+bgImage: /background.png
+heroText: Mr.Xiao
 tagline: I want things to be the way they should be.
 heroFullScreen: true
 projects:
@@ -39,6 +40,7 @@ projects:
   #   link: https://link.to.your.friend
 
 footer: I want things to be the way they should be.
+copyright: true
 ---
 
 

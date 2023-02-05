@@ -12,12 +12,12 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.png",
+  logo: "/avatar.png",
 
   repo: "aps-xiao/apingstudio",
 
-  docsDir: "docs",
-
+  docsDir: "src",
+  docsBranch: "gh-pages",
   blog: {
     medias: {
       // Baidu: "https://example.com",
