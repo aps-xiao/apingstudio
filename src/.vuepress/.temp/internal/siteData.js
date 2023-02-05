@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/apingstudio/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"APingStudio\",\"description\":\"Let's do things together.\"},\"/zh/\":{\"lang\":\"zh-CN\",\"title\":\"一咻工作室\",\"description\":\"让我们一起来搞事情。\"}}}")

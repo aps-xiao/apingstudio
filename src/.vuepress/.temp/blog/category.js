@@ -1,0 +1,2 @@
+export const categoryMap = {"category":{"/":{"path":"/category/","map":{"program":{"path":"/category/program/","keys":["v-c38fab7a"]}}},"/zh/":{"path":"/zh/category/","map":{"我的项目":{"path":"/zh/category/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/","keys":["v-0a9d4134"]}}}},"tag":{"/":{"path":"/tag/","map":{"red":{"path":"/tag/red/","keys":["v-c38fab7a"]}}},"/zh/":{"path":"/zh/tag/","map":{"红":{"path":"/zh/tag/%E7%BA%A2/","keys":["v-0a9d4134"]}}}}};
+
