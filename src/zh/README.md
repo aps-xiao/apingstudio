@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: /logo.svg
-heroText: 一咻工作室
+heroText: 肖海
 heroFullScreen: true
 tagline: 我想让事情是它本来该有的那个样子。
 projects:
