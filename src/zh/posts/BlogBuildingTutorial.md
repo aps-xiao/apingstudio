@@ -94,7 +94,11 @@ npm init vuepress-theme-hope my-docs
 如果你的仓库地址是一个普通的形如 `https://github.com/<USERNAME>/<REPO>` 的格式，网站将会被发布到 `https://<USERNAME>.github.io/<REPO>/` ，也就是说，你需要将 base 设置为 `"/<REPO>/"`。
 ## 三、发布到github
 不同的分支有不同的功能
+main分支：源代码
+gh-pages分支：生成的代码
 ```sh
+@echo off
+echo "push source"
 git init 
 git add .
 git commit -m "push"
@@ -102,17 +106,16 @@ git remote add origin git@github.com:aps-xiao/apingstudio.git
 git branch -M main
 git push -u origin main
 yarn docs:build
-
+echo "push distance"
 cd .\src\.vuepress\dist\
 echo 'www.example.com' > CNAME
-
 git init
 git add -A
 git commit -m 'deploy'
 git remote add origin git@github.com:aps-xiao/apingstudio.git
 git branch -M gh-pages
-git push -f git@github.com:aps-xiao/apingstudio.git main:gh-pages
-
+git push -f git@github.com:aps-xiao/apingstudio.git gh-pages
 cd ..\..\..\
+
 
 ```
