@@ -17,7 +17,7 @@ export default hopeTheme({
   repo: "aps-xiao/apingstudio",
 
   docsDir: "src",
-  docsBranch: "gh-pages",
+  docsBranch: "main",
   blog: {
     medias: {
       // Baidu: "https://example.com",
