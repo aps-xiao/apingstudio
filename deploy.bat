@@ -1,3 +1,5 @@
+@echo off
+echo "push source"
 git init 
 git add .
 git commit -m "push"
@@ -6,6 +8,7 @@ git branch -M main
 git push -u origin main
 yarn docs:build
 
+echo "push distance"
 cd .\src\.vuepress\dist\
 echo 'www.example.com' > CNAME
 
