@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: Blog Home
 heroImage: /avatar.png
-bgImage: /background.png
+bgImage: /background2.png
 heroText: Mr.Xiao
 tagline: I want things to be the way they should be.
 heroFullScreen: true

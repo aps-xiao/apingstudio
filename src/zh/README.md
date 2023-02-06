@@ -3,8 +3,9 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /avatar.png
 heroText: 肖海
+bgImage: /background2.png
 heroFullScreen: true
 tagline: 我想让事情是它本来该有的那个样子。
 projects:
