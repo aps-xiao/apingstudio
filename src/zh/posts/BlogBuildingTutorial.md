@@ -85,27 +85,27 @@ npm init vuepress-theme-hope my-docs
 
 :::
 
-## 二、创建github仓库
+## 三、创建github仓库
 
-### 2.1 仓库名与用户名相同
+### 3.1 仓库名与用户名相同
 如果你准备发布到 `https://<USERNAME>.github.io/`，你必须将整个项目上传至 `https://github.com/<USERNAME>/<USERNAME>.github.io` 仓库。在这种情况下你无需进行任何更改，因为 base 默认就是 `"/"`。
 >注：base在src\.vuepress\config.ts中修改。
-### 2.2 仓库名与用户名不同
+### 3.2 仓库名与用户名不同
 如果你的仓库地址是一个普通的形如 `https://github.com/<USERNAME>/<REPO>` 的格式，网站将会被发布到 `https://<USERNAME>.github.io/<REPO>/` ，也就是说，你需要将 base 设置为 `"/<REPO>/"`。
-## 三、发布到github
+## 四、发布到github
 不同的分支有不同的功能
 main分支：源代码
 gh-pages分支：生成的代码
 ```sh
 @echo off
 echo "push source"
-git init 
 git add .
 git commit -m "push"
 git remote add origin git@github.com:aps-xiao/apingstudio.git
 git branch -M main
 git push -u origin main
 yarn docs:build
+@echo off
 echo "push distance"
 cd .\src\.vuepress\dist\
 echo 'www.example.com' > CNAME

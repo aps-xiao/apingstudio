@@ -13,7 +13,7 @@ Download the LTS version</p>
 corepack prepare pnpm@7.24.3 <span class="token parameter variable">--activate</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-3-install-vscode" tabindex="-1"><a class="header-anchor" href="#_1-3-install-vscode" aria-hidden="true">#</a> 1.3 Install vscode</h3>
 <p><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/<ExternalLinkIcon/></a></p>
-<h2 id="二、create-a-vuepress-theme-hope-project" tabindex="-1"><a class="header-anchor" href="#二、create-a-vuepress-theme-hope-project" aria-hidden="true">#</a> 二、Create a VuePress Theme Hope Project</h2>
+<h2 id="_2、create-a-vuepress-theme-hope-project" tabindex="-1"><a class="header-anchor" href="#_2、create-a-vuepress-theme-hope-project" aria-hidden="true">#</a> 2、Create a VuePress Theme Hope Project</h2>
 <p>It is recommended to use a plain English path (eg: D:\ projects\ vuepress-theme-hope).</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">pnpm</span> create vuepress-theme-hope my-docs
 
@@ -56,13 +56,13 @@ corepack prepare pnpm@7.24.3 <span class="token parameter variable">--activate</
 <p class="hint-container-title">Terminate DevServer</p>
 <p>To terminate the development server, please click on the terminal and press <code v-pre>Ctrl + C</code> twice.</p>
 </div>
-<h2 id="_2、create-github-warehouse" tabindex="-1"><a class="header-anchor" href="#_2、create-github-warehouse" aria-hidden="true">#</a> 2、Create github warehouse</h2>
-<h3 id="_2-1-the-warehouse-name-is-the-same-as-the-user-name" tabindex="-1"><a class="header-anchor" href="#_2-1-the-warehouse-name-is-the-same-as-the-user-name" aria-hidden="true">#</a> 2.1 The warehouse name is the same as the user name</h3>
+<h2 id="_3、create-github-warehouse" tabindex="-1"><a class="header-anchor" href="#_3、create-github-warehouse" aria-hidden="true">#</a> 3、Create github warehouse</h2>
+<h3 id="_3-1-the-warehouse-name-is-the-same-as-the-user-name" tabindex="-1"><a class="header-anchor" href="#_3-1-the-warehouse-name-is-the-same-as-the-user-name" aria-hidden="true">#</a> 3.1 The warehouse name is the same as the user name</h3>
 <p>If you are going to publish to <code v-pre>https://&lt;USERNAME&gt;.github.io/</code>, you must upload the entire project to the <code v-pre>https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io</code> repository . You don’t need to make any changes in this case, since base defaults to <code v-pre>&quot;/&quot;</code>.</p>
 <blockquote>
 <p>Note: base is modified in src . Vuepress  config.ts.</p>
 </blockquote>
-<h3 id="_2-2-the-warehouse-name-is-different-from-the-user-name" tabindex="-1"><a class="header-anchor" href="#_2-2-the-warehouse-name-is-different-from-the-user-name" aria-hidden="true">#</a> 2.2 The warehouse name is different from the user name</h3>
+<h3 id="_3-2-the-warehouse-name-is-different-from-the-user-name" tabindex="-1"><a class="header-anchor" href="#_3-2-the-warehouse-name-is-different-from-the-user-name" aria-hidden="true">#</a> 3.2 The warehouse name is different from the user name</h3>
 <p>If your repository link is in a normal format like <code v-pre>https://github.com/&lt;USERNAME&gt;/&lt;REPO&gt;</code>, the website will be published to <code v-pre>https://&lt;USERNAME&gt;.github.io /&lt;REPO&gt;/</code> , so you need to set base to <code v-pre>&quot;/&lt;REPO&gt;/&quot;</code>.</p>
 <h2 id="_3、publish-to-github" tabindex="-1"><a class="header-anchor" href="#_3、publish-to-github" aria-hidden="true">#</a> 3、Publish to github</h2>
 <p>Different branches have different functions
