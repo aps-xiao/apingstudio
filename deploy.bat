@@ -1,13 +1,11 @@
-@echo off
-echo "push source"
+git init
 git add .
 git commit -m "push"
 git remote add origin git@github.com:aps-xiao/apingstudio.git
 git branch -M main
 git push -u origin main
 yarn docs:build
-@echo off
-echo "push distance"
+
 cd .\src\.vuepress\dist\
 echo 'www.example.com' > CNAME
 git init

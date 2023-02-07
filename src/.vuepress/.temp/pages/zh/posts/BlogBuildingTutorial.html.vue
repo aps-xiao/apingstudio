@@ -56,27 +56,27 @@ corepack prepare pnpm@7.24.3 <span class="token parameter variable">--activate</
 <p class="hint-container-title">终止开发服务器</p>
 <p>如果你需要终止开发服务器，请点击终端，并连续两次按下 <code v-pre>Ctrl + C</code>。</p>
 </div>
-<h2 id="二、创建github仓库" tabindex="-1"><a class="header-anchor" href="#二、创建github仓库" aria-hidden="true">#</a> 二、创建github仓库</h2>
-<h3 id="_2-1-仓库名与用户名相同" tabindex="-1"><a class="header-anchor" href="#_2-1-仓库名与用户名相同" aria-hidden="true">#</a> 2.1 仓库名与用户名相同</h3>
+<h2 id="三、创建github仓库" tabindex="-1"><a class="header-anchor" href="#三、创建github仓库" aria-hidden="true">#</a> 三、创建github仓库</h2>
+<h3 id="_3-1-仓库名与用户名相同" tabindex="-1"><a class="header-anchor" href="#_3-1-仓库名与用户名相同" aria-hidden="true">#</a> 3.1 仓库名与用户名相同</h3>
 <p>如果你准备发布到 <code v-pre>https://&lt;USERNAME&gt;.github.io/</code>，你必须将整个项目上传至 <code v-pre>https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io</code> 仓库。在这种情况下你无需进行任何更改，因为 base 默认就是 <code v-pre>&quot;/&quot;</code>。</p>
 <blockquote>
 <p>注：base在src.vuepress\config.ts中修改。</p>
 </blockquote>
-<h3 id="_2-2-仓库名与用户名不同" tabindex="-1"><a class="header-anchor" href="#_2-2-仓库名与用户名不同" aria-hidden="true">#</a> 2.2 仓库名与用户名不同</h3>
+<h3 id="_3-2-仓库名与用户名不同" tabindex="-1"><a class="header-anchor" href="#_3-2-仓库名与用户名不同" aria-hidden="true">#</a> 3.2 仓库名与用户名不同</h3>
 <p>如果你的仓库地址是一个普通的形如 <code v-pre>https://github.com/&lt;USERNAME&gt;/&lt;REPO&gt;</code> 的格式，网站将会被发布到 <code v-pre>https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;/</code> ，也就是说，你需要将 base 设置为 <code v-pre>&quot;/&lt;REPO&gt;/&quot;</code>。</p>
-<h2 id="三、发布到github" tabindex="-1"><a class="header-anchor" href="#三、发布到github" aria-hidden="true">#</a> 三、发布到github</h2>
+<h2 id="四、发布到github" tabindex="-1"><a class="header-anchor" href="#四、发布到github" aria-hidden="true">#</a> 四、发布到github</h2>
 <p>不同的分支有不同的功能
 main分支：源代码
 gh-pages分支：生成的代码</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>@echo off
 <span class="token builtin class-name">echo</span> <span class="token string">"push source"</span>
-<span class="token function">git</span> init 
 <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
 <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"push"</span>
 <span class="token function">git</span> remote <span class="token function">add</span> origin git@github.com:aps-xiao/apingstudio.git
 <span class="token function">git</span> branch <span class="token parameter variable">-M</span> main
 <span class="token function">git</span> push <span class="token parameter variable">-u</span> origin main
 <span class="token function">yarn</span> docs:build
+@echo off
 <span class="token builtin class-name">echo</span> <span class="token string">"push distance"</span>
 <span class="token builtin class-name">cd</span> .<span class="token punctuation">\</span>src<span class="token punctuation">\</span>.vuepress<span class="token punctuation">\</span>dist<span class="token punctuation">\</span>
 <span class="token builtin class-name">echo</span> <span class="token string">'www.example.com'</span> <span class="token operator">></span> CNAME

@@ -64,19 +64,19 @@ corepack prepare pnpm@7.24.3 <span class="token parameter variable">--activate</
 </blockquote>
 <h3 id="_3-2-the-warehouse-name-is-different-from-the-user-name" tabindex="-1"><a class="header-anchor" href="#_3-2-the-warehouse-name-is-different-from-the-user-name" aria-hidden="true">#</a> 3.2 The warehouse name is different from the user name</h3>
 <p>If your repository link is in a normal format like <code v-pre>https://github.com/&lt;USERNAME&gt;/&lt;REPO&gt;</code>, the website will be published to <code v-pre>https://&lt;USERNAME&gt;.github.io /&lt;REPO&gt;/</code> , so you need to set base to <code v-pre>&quot;/&lt;REPO&gt;/&quot;</code>.</p>
-<h2 id="_3、publish-to-github" tabindex="-1"><a class="header-anchor" href="#_3、publish-to-github" aria-hidden="true">#</a> 3、Publish to github</h2>
+<h2 id="_4、publish-to-github" tabindex="-1"><a class="header-anchor" href="#_4、publish-to-github" aria-hidden="true">#</a> 4、Publish to github</h2>
 <p>Different branches have different functions
 branch main：source code
 branch gh-pages：distance code</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>@echo off
 <span class="token builtin class-name">echo</span> <span class="token string">"push source"</span>
-<span class="token function">git</span> init 
 <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
 <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"push"</span>
 <span class="token function">git</span> remote <span class="token function">add</span> origin git@github.com:aps-xiao/apingstudio.git
 <span class="token function">git</span> branch <span class="token parameter variable">-M</span> main
 <span class="token function">git</span> push <span class="token parameter variable">-u</span> origin main
 <span class="token function">yarn</span> docs:build
+@echo off
 <span class="token builtin class-name">echo</span> <span class="token string">"push distance"</span>
 <span class="token builtin class-name">cd</span> .<span class="token punctuation">\</span>src<span class="token punctuation">\</span>.vuepress<span class="token punctuation">\</span>dist<span class="token punctuation">\</span>
 <span class="token builtin class-name">echo</span> <span class="token string">'www.example.com'</span> <span class="token operator">></span> CNAME
@@ -86,9 +86,6 @@ branch gh-pages：distance code</p>
 <span class="token function">git</span> remote <span class="token function">add</span> origin git@github.com:aps-xiao/apingstudio.git
 <span class="token function">git</span> branch <span class="token parameter variable">-M</span> gh-pages
 <span class="token function">git</span> push <span class="token parameter variable">-f</span> git@github.com:aps-xiao/apingstudio.git gh-pages
-<span class="token builtin class-name">cd</span> <span class="token punctuation">..</span><span class="token punctuation">\</span><span class="token punctuation">..</span><span class="token punctuation">\</span><span class="token punctuation">..</span><span class="token punctuation">\</span>
-
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
 
 
