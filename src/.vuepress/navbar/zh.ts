@@ -19,9 +19,9 @@ export const zhNavbar = navbar([
     ]
   },
   {
-    text: "博文",
+    text: "游戏开发",
     icon: "edit",
-    prefix: "/zh/posts/",
+    prefix: "/zh/posts/game",
     children: [
       // {
       //   text: "苹果",
@@ -33,30 +33,25 @@ export const zhNavbar = navbar([
       //     "3",
       //     "4",
       //   ],
-      // },
+      // }
+    ],
+  },
+  {
+    text: "软件开发",
+    icon: "edit",
+    prefix: "/zh/posts/software",
+    children: [
       // {
-      //   text: "香蕉",
+      //   text: "苹果",
       //   icon: "edit",
-      //   prefix: "banana/",
+      //   prefix: "apple/",
       //   children: [
-      //     {
-      //       text: "香蕉 1",
-      //       icon: "edit",
-      //       link: "1",
-      //     },
-      //     {
-      //       text: "香蕉 2",
-      //       icon: "edit",
-      //       link: "2",
-      //     },
+      //     { text: "苹果1", icon: "edit", link: "1" },
+      //     { text: "苹果2", icon: "edit", link: "2" },
       //     "3",
       //     "4",
       //   ],
-      // },
-      // { text: "樱桃", icon: "edit", link: "cherry" },
-      // { text: "火龙果", icon: "edit", link: "dragonfruit" },
-      // "tomato",
-      // "strawberry",
+      // }
     ],
   },
   // {

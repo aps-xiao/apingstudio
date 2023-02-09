@@ -69,7 +69,7 @@ corepack prepare pnpm@7.24.3 <span class="token parameter variable">--activate</
 main分支：源代码
 gh-pages分支：生成的代码</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>@echo off
-ssh-keygen <span class="token parameter variable">-t</span> rsa <span class="token parameter variable">-b</span> <span class="token number">4096</span> <span class="token parameter variable">-C</span> <span class="token string">"你的邮箱"</span>
+ssh-keygen <span class="token parameter variable">-t</span> ed25519 <span class="token parameter variable">-C</span> <span class="token string">"your-email"</span>
 <span class="token builtin class-name">echo</span> <span class="token string">"push source"</span>
 <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
 <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"push"</span>
