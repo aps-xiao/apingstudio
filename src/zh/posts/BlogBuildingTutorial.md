@@ -98,6 +98,7 @@ main分支：源代码
 gh-pages分支：生成的代码
 ```sh
 @echo off
+ssh-keygen -t rsa -b 4096 -C "你的邮箱"
 echo "push source"
 git add .
 git commit -m "push"
