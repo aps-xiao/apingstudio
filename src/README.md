@@ -12,7 +12,7 @@ projects:
   - icon: /assets/cookdesigner/logo.png
     name: Cook Designer
     desc: Make cooking more efficient.
-    link: https://your.project.link
+    link: https://gitee.com/aps-xiao/cookdesigner
 
   # - icon: link
   #   name: link name

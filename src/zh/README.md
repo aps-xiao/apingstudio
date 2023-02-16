@@ -12,7 +12,7 @@ projects:
   - icon: /assets/cookdesigner/logo.png
     name: 厨时烹调设计师
     desc: 让烹饪变得更高效。
-    link: https://你的项目链接
+    link: https://gitee.com/aps-xiao/cookdesigner
 
   # - icon: link
   #   name: 链接名称
