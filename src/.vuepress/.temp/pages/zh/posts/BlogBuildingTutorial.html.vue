@@ -1,7 +1,8 @@
 <template><div><h1 id="搭建博客教程" tabindex="-1"><a class="header-anchor" href="#搭建博客教程" aria-hidden="true">#</a> 搭建博客教程</h1>
 <p>博客框架：VuePress <br>
 VuePress主题：<a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">https://theme-hope.vuejs.press/<ExternalLinkIcon/></a> <br>
-编辑器：vscode <br>
+编辑器：vscode \ 
+nodejs: 16.18.1 <br>
 项目管理器：pnpm</p>
 <h2 id="一、环境搭建" tabindex="-1"><a class="header-anchor" href="#一、环境搭建" aria-hidden="true">#</a> 一、环境搭建</h2>
 <h3 id="_1-1-安装nodejs" tabindex="-1"><a class="header-anchor" href="#_1-1-安装nodejs" aria-hidden="true">#</a> 1.1 安装nodejs</h3>

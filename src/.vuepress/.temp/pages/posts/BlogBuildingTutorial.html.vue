@@ -1,7 +1,8 @@
 <template><div><h1 id="building-a-blog-tutorial" tabindex="-1"><a class="header-anchor" href="#building-a-blog-tutorial" aria-hidden="true">#</a> Building a Blog Tutorial</h1>
 <p>Blog Framework: VuePress<br>
-VuePress Theme: <a href="https://theme-hope.vuejs.press/%5C" target="_blank" rel="noopener noreferrer">https://theme-hope.vuejs.press/\<ExternalLinkIcon/></a>
-Editor: vscode<br>
+VuePress Theme: <a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">https://theme-hope.vuejs.press/<ExternalLinkIcon/></a> <br>
+Editor: vscode <br>
+nodejs: 16.18.1 <br>
 Project Manager: pnpm</p>
 <h2 id="_1-environmental-construction" tabindex="-1"><a class="header-anchor" href="#_1-environmental-construction" aria-hidden="true">#</a> 1. Environmental construction</h2>
 <h3 id="_1-1-install-nodejs" tabindex="-1"><a class="header-anchor" href="#_1-1-install-nodejs" aria-hidden="true">#</a> 1.1 Install nodejs</h3>

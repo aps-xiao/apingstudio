@@ -1,14 +1,14 @@
 import { defineClientConfig } from "@vuepress/client";
-import { hasGlobalComponent } from "C:/Users/Administrator/Desktop/apingstudio/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.171_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-components/lib/client/shared.js";
+import { hasGlobalComponent } from "C:/Users/Administrator/Desktop/apingstudio/node_modules/vuepress-plugin-components/lib/client/shared.js";
 import { h } from "vue";
 
-import { useStyleTag } from "C:/Users/Administrator/Desktop/apingstudio/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.171_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-components/lib/client/vueuse.js";
-import Badge from "C:/Users/Administrator/Desktop/apingstudio/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.171_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "C:/Users/Administrator/Desktop/apingstudio/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.171_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "C:/Users/Administrator/Desktop/apingstudio/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.171_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useStyleTag } from "C:/Users/Administrator/Desktop/apingstudio/node_modules/vuepress-plugin-components/lib/client/vueuse.js";
+import Badge from "C:/Users/Administrator/Desktop/apingstudio/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "C:/Users/Administrator/Desktop/apingstudio/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "C:/Users/Administrator/Desktop/apingstudio/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
 
-import "C:/Users/Administrator/Desktop/apingstudio/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.171_e7jwb2ulu5orbkux7obq5onfau/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "C:/Users/Administrator/Desktop/apingstudio/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

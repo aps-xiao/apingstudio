@@ -6,7 +6,7 @@ git branch -M main
 git push -u origin main
 yarn docs:build
 
-cd .\src\.vuepress\dist\
+cd ./src/.vuepress/dist/
 echo 'www.example.com' > CNAME
 git init
 git add -A
