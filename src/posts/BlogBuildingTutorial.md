@@ -10,8 +10,9 @@ tag:
 # Building a Blog Tutorial
 
 Blog Framework: VuePress\
-VuePress Theme: https://theme-hope.vuejs.press/\
-Editor: vscode\
+VuePress Theme: https://theme-hope.vuejs.press/ \
+Editor: vscode \
+nodejs: 16.18.1 \
 Project Manager: pnpm
 
 ## 1. Environmental construction

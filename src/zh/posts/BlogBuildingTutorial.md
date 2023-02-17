@@ -11,7 +11,8 @@ tag:
 
 博客框架：VuePress \
 VuePress主题：https://theme-hope.vuejs.press/ \
-编辑器：vscode \
+编辑器：vscode \ 
+nodejs: 16.18.1 \
 项目管理器：pnpm
 
 ## 一、环境搭建
