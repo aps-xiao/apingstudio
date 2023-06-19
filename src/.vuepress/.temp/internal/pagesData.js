@@ -3,12 +3,12 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/jiangyang/Documents/apingstudio/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /intro.html
   "v-184f4da6": () => import(/* webpackChunkName: "v-184f4da6" */"/Users/jiangyang/Documents/apingstudio/src/.vuepress/.temp/pages/intro.html.js").then(({ data }) => data),
+  // path: /posts/BlogBuildingTutorial.html
+  "v-153655f0": () => import(/* webpackChunkName: "v-153655f0" */"/Users/jiangyang/Documents/apingstudio/src/.vuepress/.temp/pages/posts/BlogBuildingTutorial.html.js").then(({ data }) => data),
   // path: /zh/
   "v-2d0ad528": () => import(/* webpackChunkName: "v-2d0ad528" */"/Users/jiangyang/Documents/apingstudio/src/.vuepress/.temp/pages/zh/index.html.js").then(({ data }) => data),
   // path: /zh/intro.html
   "v-858cfdd6": () => import(/* webpackChunkName: "v-858cfdd6" */"/Users/jiangyang/Documents/apingstudio/src/.vuepress/.temp/pages/zh/intro.html.js").then(({ data }) => data),
-  // path: /posts/BlogBuildingTutorial.html
-  "v-153655f0": () => import(/* webpackChunkName: "v-153655f0" */"/Users/jiangyang/Documents/apingstudio/src/.vuepress/.temp/pages/posts/BlogBuildingTutorial.html.js").then(({ data }) => data),
   // path: /zh/posts/BlogBuildingTutorial.html
   "v-7eb5ede1": () => import(/* webpackChunkName: "v-7eb5ede1" */"/Users/jiangyang/Documents/apingstudio/src/.vuepress/.temp/pages/zh/posts/BlogBuildingTutorial.html.js").then(({ data }) => data),
   // path: /posts/project/cookdesigner/devnote.html

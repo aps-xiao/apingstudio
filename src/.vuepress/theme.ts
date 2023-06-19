@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/avatar.png",
+  logo: "/logo.png",
 
   repo: "aps-xiao/apingstudio",
 
