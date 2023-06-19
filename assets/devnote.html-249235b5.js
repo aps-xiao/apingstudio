@@ -1,0 +1,1 @@
+import{_ as o,V as t,W as n,X as e,Y as r}from"./framework-1a587c83.js";const s={},a=e("h1",{id:"cookdesigner-开发笔",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#cookdesigner-开发笔","aria-hidden":"true"},"#"),r(" CookDesigner 开发笔")],-1),c=[a];function d(_,i){return t(),n("div",null,c)}const l=o(s,[["render",d],["__file","devnote.html.vue"]]);export{l as default};
